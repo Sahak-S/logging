@@ -1,0 +1,24 @@
+my logs run2023-01-25T00:51:14.402+04:00  INFO 13980 --- [main] com.example.logging.LoggingApplication   : Starting LoggingApplication using Java 17.0.3 with PID 13980 (C:\Users\User\IdeaProjects\logging\target\classes started by User in C:\Users\User\IdeaProjects\logging)
+2023-01-25T00:51:14.409+04:00  INFO 13980 --- [main] com.example.logging.LoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-25T00:51:16.491+04:00  INFO 13980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-01-25T00:51:16.507+04:00  INFO 13980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-25T00:51:16.508+04:00  INFO 13980 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-25T00:51:16.704+04:00  INFO 13980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-25T00:51:16.705+04:00  INFO 13980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2167 ms
+2023-01-25T00:51:17.549+04:00  INFO 13980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-25T00:51:17.568+04:00  INFO 13980 --- [main] com.example.logging.LoggingApplication   : Started LoggingApplication in 4.513 seconds (process running for 5.764)
+2023-01-25T00:51:56.782+04:00  INFO 13980 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-25T00:51:56.784+04:00  INFO 13980 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-25T00:51:56.785+04:00  INFO 13980 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-01-25T00:51:56.819+04:00  INFO 13980 --- [http-nio-8081-exec-1] c.e.logging.controler.MainController     : This is INFO
+2023-01-25T00:51:56.820+04:00  WARN 13980 --- [http-nio-8081-exec-1] c.e.logging.controler.MainController     : This is WARN
+2023-01-25T00:51:56.820+04:00 ERROR 13980 --- [http-nio-8081-exec-1] c.e.logging.controler.MainController     : This is ERROR
+2023-01-25T00:52:58.703+04:00  INFO 16292 --- [main] com.example.logging.LoggingApplication   : Starting LoggingApplication using Java 17.0.3 with PID 16292 (C:\Users\User\IdeaProjects\logging\target\classes started by User in C:\Users\User\IdeaProjects\logging)
+2023-01-25T00:52:58.740+04:00  INFO 16292 --- [main] com.example.logging.LoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-01-25T00:53:00.345+04:00  INFO 16292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-01-25T00:53:00.365+04:00  INFO 16292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-25T00:53:00.366+04:00  INFO 16292 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-01-25T00:53:00.515+04:00  INFO 16292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-25T00:53:00.517+04:00  INFO 16292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1663 ms
+2023-01-25T00:53:01.081+04:00  INFO 16292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-01-25T00:53:01.095+04:00  INFO 16292 --- [main] com.example.logging.LoggingApplication   : Started LoggingApplication in 3.524 seconds (process running for 4.562)
